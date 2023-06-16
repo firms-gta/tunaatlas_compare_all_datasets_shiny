@@ -32,7 +32,7 @@ RUN R -e "install.packages(c('jsonlite','yaml'), repos='https://cran.r-project.o
 RUN git -C /root/ clone https://github.com/firms-gta/tunaatlas_compare_all_datasets_shiny && echo "OK!"
 RUN ln -s /root/tunaatlas_compare_all_datasets_shiny /srv/tunaatlas_compare_all_datasets_shiny
 # install R app package dependencies
-RUN R -e "source('./srv/tunaatlas_compare_all_datasets_shiny/install.R')"
+RUN R -e "source('/srv/tunaatlas_compare_all_datasets_shiny/install.R')"
 
 #etc dirs (for config)
 RUN mkdir -p /etc/tunaatlas_compare_all_datasets_shiny/
