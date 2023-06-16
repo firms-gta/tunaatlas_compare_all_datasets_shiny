@@ -1,33 +1,10 @@
-library(shiny)
-library(geojsonio)
-library(plyr)
-library(dplyr)
-library(DBI)
-library(leaflet)
-library(leaflet.extras)
-library(leafpm)
-library(mapedit)
-library(sf)
-library(sp)
-library(plotly)
-library(DT)
-library(ncdf4)
-library(raster)
-library(maps)
-library(ggplot2)
-library(XML)
-library(streamgraph)
-library(viridis)
-library(xts)
-library(dygraphs)
-library(tidyr)
+
 ####################################################################################################################################################################################################################################
 source("https://raw.githubusercontent.com/juldebar/IRDTunaAtlas/master/R/TunaAtlas_i1_SpeciesByOcean.R")
 source("https://raw.githubusercontent.com/juldebar/IRDTunaAtlas/master/R/TunaAtlas_i2_SpeciesByGear.R")
 ####################################################################################################################################################################################################################################
 DRV=RPostgres::Postgres()
-# source(file = "~/Desktop/CODES/IRDTunaAtlas/credentials.R")
-source(file = "~/Bureau/CODES/IRDTunaAtlas/credentials.R")
+source(file = "~/Desktop/CODES/IRDTunaAtlas/credentials.R")
 ###################################################################################################################################################################################################################################
 
 new_wkt <- 'POLYGON((-180 -90, 180 -90, 180 90, -180 90, -180 -90))'
