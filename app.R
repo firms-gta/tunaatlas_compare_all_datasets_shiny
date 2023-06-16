@@ -13,6 +13,7 @@ switch_unit <- reactiveVal(TRUE)
 query_metadata <- reactiveVal() 
 query_all_datasets <- reactiveVal() 
 
+#SET FILTERS POSSIBLE VALUES
 # target_species<- c("YFT","BFT")
 # target_year <- c(seq(1:10)+1994)
 target_dataset <- dbGetQuery(con, "SELECT DISTINCT(dataset) FROM public.i1i2_spatial_all_datasets ORDER BY dataset;")
