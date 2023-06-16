@@ -1,8 +1,10 @@
 {
-  "id": "tunaatlas_pie_map_shiny",
-  "version": "0.6.0",
-  "date": "2023-04-17",
+  "id": "tunaatlas_compare_all_datasets_shiny",
+  "version": "0.0.0",
+  "date": "2023-06-16",
   "dependencies": [
+  {"package": "shiny", "version": "1.7.1", "repos": "https://cran.r-project.org"},
+  {"package": "shinyWidgets", "version": "0.7.1", "repos": "https://cran.r-project.org"},    
   {"package": "geojsonio", "version": "0.9.4", "repos": "https://cran.r-project.org"},     
   {"package": "plyr", "version": "1.8.7", "repos": "https://cran.r-project.org"}, 
   {"package": "dplyr", "version": "1.0.9", "repos": "https://cran.r-project.org"}, 
