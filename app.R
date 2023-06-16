@@ -3,7 +3,7 @@
 source("https://raw.githubusercontent.com/juldebar/IRDTunaAtlas/master/R/TunaAtlas_i1_SpeciesByOcean.R")
 source("https://raw.githubusercontent.com/juldebar/IRDTunaAtlas/master/R/TunaAtlas_i2_SpeciesByGear.R")
 ####################################################################################################################################################################################################################################
-DRV=RPostgres::Postgres()
+#DRV=RPostgres::Postgres()
 source(file = "~/Desktop/CODES/IRDTunaAtlas/credentials.R")
 ###################################################################################################################################################################################################################################
 
