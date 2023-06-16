@@ -8,10 +8,10 @@ source(file = "~/Desktop/CODES/IRDTunaAtlas/credentials.R")
 ###################################################################################################################################################################################################################################
 
 new_wkt <- 'POLYGON((-180 -90, 180 -90, 180 90, -180 90, -180 -90))'
-wkt <- reactiveVal(new_wkt) 
-switch_unit <- reactiveVal(TRUE) 
-query_metadata <- reactiveVal() 
-query_all_datasets <- reactiveVal() 
+wkt <- reactiveVal(new_wkt)
+switch_unit <- reactiveVal(TRUE)
+query_metadata <- reactiveVal()
+query_all_datasets <- reactiveVal()
 
 #SET FILTERS POSSIBLE VALUES
 # target_species<- c("YFT","BFT")
