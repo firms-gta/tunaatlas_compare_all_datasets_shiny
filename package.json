@@ -28,7 +28,6 @@
   {"package": "xml2", "version": "1.3.3", "repos": "https://cran.r-project.org"},
   {"package": "reshape", "version": "0.8.9", "repos": "https://cran.r-project.org"}, 
   {"package": "tidyr", "version": "1.2.0", "repos": "https://cran.r-project.org"}, 
-  {"repo": "hrbrmstr/streamgraph", "from": "github", "dependencies": false},
   {"package": "dygraphs", "version": "1.1.1.6", "repos": "https://cran.r-project.org"}, 
   {"package": "xts", "version": "0.12.1", "repos": "https://cran.r-project.org"},  
   {"package": "RColorBrewer", "version": "1.1-3", "repos": "https://cran.r-project.org"}, 
