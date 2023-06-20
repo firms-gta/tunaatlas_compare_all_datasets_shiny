@@ -28,6 +28,7 @@ RUN apt-get update && apt-get -y install cmake
 RUN install2.r --error --skipinstalled --ncpus -1 remotes
 RUN R -e "install.packages(c('jsonlite','yaml'), repos='https://cran.r-project.org/')"
 RUN R -e "remotes::install_github('hrbrmstr/streamgraph')"
+
 # clone app
 RUN git -C /root/ clone https://github.com/firms-gta/tunaatlas_compare_all_datasets_shiny.git && echo "OK!"
 RUN ln -s /root/tunaatlas_compare_all_datasets_shiny /srv/tunaatlas_compare_all_datasets_shiny
